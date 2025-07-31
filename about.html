@@ -7,6 +7,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 
+      <style>
+    form {
+      animation: fadeSlide 5s ease-in-out;
+    }
+
+    @keyframes fadeSlide {
+      0% {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+
+    
+
 
 
 
@@ -26,13 +45,33 @@
 
         <h3 style="color:rgb(4, 53, 53)">About Our Showroom</h3>
 
-        <p style="color: rgb(66, 4, 48);">
+        <p style="color: rgb(66, 4, 48);" >
             Our skilled and knowledgeable staff have many years of experience satisfying our customers' needs. Located
             in Jamaica, New York,
             and serving NYC, Queens, and Brooklyn. If you don’t see what you’re looking for, fill out the vehicle finder
             form.
             We’ll notify you when your desired vehicle is available. You’re always welcome to visit our dealership.
         </p>
+           <h2 style="color: black;">  Looking For</h2>
+        <form action="">
+            <label for="Shop New">Shop New</label>
+            <input type="text" id="Shop New" Shop New="Shop New"><br> <br>
+
+            <label for="Shop Old">Shop Old</label>
+            <input type="Shop Old" id="Shop Old" email="'Shop Old"><br><br>
+
+            <label for=" choice">Choose a topic</label>
+
+            <select id="choice" name="choice">
+                <option value="Suv">Suv</option>
+                <option value="Sedan">Sedan</option>
+            </select><br><br>
+
+            <input type="submit" id="" Submit>
+
+
+        </form>
+
         <hr>
 
         <img src="./image/R.gif" alt="Vehicle 1" height=" 500" width="500">
