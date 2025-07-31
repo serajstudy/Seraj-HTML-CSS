@@ -2,7 +2,7 @@ body {
     font-family: Arial;
   margin: 0;
   padding: 0;
-  background-color: rgb(19, 92, 47);
+  background-image: url(./image/premium_photo-.avif);
 
 
 
@@ -12,7 +12,9 @@ body {
 }
 
 nav {
-  background-color: rgb(9, 159, 129);
+  background-image: url(./image/realistic-g.avif);
+
+
   padding: 10px;
   display: flex;
   justify-content: space-around;
